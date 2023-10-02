@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.body{
+  background: #000;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  background: gray;
+  margin: 5px;
+  gap: 10px;
+}
+.topRow{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
