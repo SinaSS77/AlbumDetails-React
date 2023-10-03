@@ -1,5 +1,23 @@
-.image{
-  width: 500rem;
-  height: 500rem;
+.coverImg{
+  width: 20rem;
+  height: 20rem;
   margin: 10px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px rgb(226, 157, 157);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.tracksTitr {
+  text-align: left;
+  color: rgb(90, 86, 86);
+  text-shadow:2px 2px 20px rgb(239, 53, 174);
+}
+h2{
+  width: 100 px;
+}
+.albumsName{
+  list-style-type: none;
 }

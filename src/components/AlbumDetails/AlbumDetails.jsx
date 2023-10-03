@@ -1,14 +1,15 @@
 import React from "react";
+import "./AlbumDetails.css"
 
 function AlbumDetails({ album }) {
   return (
     <div>
       <div className="row">
         <div className="column">
-          <img src={album.coverImg} alt={album.name} />
+          <img className="coverImg" src={album.coverImg} alt={album.name} />
         </div>
         <div className="column">
-          <h2>{album.name}</h2>
+          <h2 className="tracksTitr">Album Name: {album.name}</h2>
           <ul>
             {album.tracks.map((track, index) => (
               <li key={index}>{track}</li>

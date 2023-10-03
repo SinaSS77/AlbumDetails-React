@@ -1,0 +1,23 @@
+.albumsTitr{
+  text-align: left;
+  color: rgb(90, 86, 86);
+  text-shadow:2px 2px 20px rgb(164, 239, 53);
+}
+li {
+  color: black;
+  
+}
+.albumsName{
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  gap:10px;
+  margin: 10px;
+}
+.albumsName:hover{
+  color: red;
+}
+.albumsListImg{
+  width: 50px;
+  border-radius: 50%;
+}
