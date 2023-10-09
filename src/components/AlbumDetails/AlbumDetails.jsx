@@ -1,5 +1,7 @@
 import React from "react";
 import "./AlbumDetails.css"
+import PlayCircleOutlinedIcon from '@mui/icons-material/PlayCircleOutlined';
+
 
 function AlbumDetails({ album }) {
   return (
@@ -12,7 +14,7 @@ function AlbumDetails({ album }) {
           <h2 className="tracksTitr">Album Name: {album.name}</h2>
           <ul>
             {album.tracks.map((track, index) => (
-              <li key={index}>{track}</li>
+              <li key={index}>{track} <PlayCircleOutlinedIcon className="PlayIcon"/></li>
             ))}
           </ul>
         </div>
