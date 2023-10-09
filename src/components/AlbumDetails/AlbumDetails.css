@@ -24,4 +24,5 @@ h2{
 .PlayIcon{
   color: blue;
   margin-left: 10px;
+  cursor: pointer;
 }
